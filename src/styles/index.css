@@ -10,3 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.traffic-light{
+    background-color: black;
+    padding: 10px;    
+}
+.glow {
+    box-shadow: 0px 0px 9px 4px rgb(177, 177, 177);
+    animation: glow 0.8s linear infinite alternate;
+}
+
+@keyframes glow {
+    to {
+        box-shadow: 0px 0px 30px 20px yellowgreen;
+    }
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
